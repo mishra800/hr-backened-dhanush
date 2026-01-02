@@ -1,0 +1,52 @@
+# Files to ignore during Vercel deployment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Local database files
+*.db
+*.sqlite3
+hr_system.db
+
+# Environment files
+.env
+.env.local
+
+# Development files
+test_*.py
+*_test.py
+check_*.py
+fix_*.py
+*migration*.py
+*migration*.sql
+system_*.py
+database_health_check.py
+
+# SQL files (not needed in production)
+*.sql
+
+# Security keys
+*.key
+*.pem
+
+# Uploads directory (will be handled separately in production)
+uploads/
